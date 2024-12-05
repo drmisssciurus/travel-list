@@ -65,6 +65,10 @@ input {
   cursor: pointer;
 }
 
+button:active {
+  border: 1px solid #5a3e2b;
+}
+
 .add-form button {
   text-transform: uppercase;
   background-color: #76c7ad;
@@ -94,7 +98,7 @@ input {
 .list ul {
   list-style: none;
   width: 80%;
-  overflow: scroll;
+  /* overflow: scroll; */
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
